@@ -1,0 +1,83 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://a57.foxnews.com/a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/09/640/320/1862/1048/istock-458940623.jpg?ve=1&tl=1?ve=1&tl=1');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px;
+    color: #fff;
+    background-color: #4e54c8;
+}
+
+h1 {
+    font-family: 'Impact', sans-serif;
+    font-size: 36px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    font-family: 'Rockwell', serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffbb77;
+}
+
+.snickers-info {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.snickers-images {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.snickers-images img {
+    width: 30%;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.snickers-images img:hover {
+    transform: scale(1.1);
+}
+
+.fun-facts {
+    color: #fff;
+}
+
+.fun-facts h2 {
+    color: #ffbb77;
+}
+
+.contact-form {
+    cursor: pointer;
+}
+
+.contact-form:hover {
+    color: #4e54c8;
+}
